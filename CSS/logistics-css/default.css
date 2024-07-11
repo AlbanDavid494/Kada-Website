@@ -1,0 +1,586 @@
+/* Global Reset */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+
+/* Header starts here*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Header Nav starts here */
+header nav menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80.3px;
+}
+
+header nav menu li {
+    list-style-type: none;
+}
+
+#menu-bar {
+    padding-block:2rem;
+padding-inline: 2.8rem;
+    position: relative;
+    background: none;
+    cursor: pointer;
+}
+
+header nav menu li:first-child label:before {
+    position: absolute;
+    content: "";
+    top: 2rem;
+    left: 1.9rem;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    transition: all .2s ease;
+}
+
+header nav menu li:first-child label:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    top: 2.4rem;
+    left: 1.9rem;
+    background-color: #000;
+    transition: all .2s ease;
+}
+
+
+/* Topnav section starts here */
+#top-nav{
+    position: absolute;
+    top: 4rem;
+   height: 100vh;
+   width: 100vw;
+   display: none;
+   opacity: 0;
+   background-color: #fff;
+    font-family: avenier, sans-serif;
+}
+
+.allProducts{
+    display: flex;
+    width:1310.75px;
+    height: 470px;
+    padding-inline: 1.6rem;
+    padding-top: 2rem;
+}
+
+.allProducts h4{
+    font-weight: 500;
+    padding-bottom: 3rem;
+    color: #000;
+    font-family: avenier, sans-serif;
+    }
+
+
+.allProducts > div ul li{
+    list-style-type: none;
+    width: 178px;
+}
+   
+
+.allProducts > div ul li a{
+    text-decoration: none;
+    color: #000;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+.homeAndProfessionalProducts{
+    display: flex;
+    flex-direction: column;
+}
+
+.homeProducts ul li:nth-child(7){
+    margin-top: 2rem;
+}
+
+.professionalProducts{
+    display: none;
+} 
+
+.professionalProducts ul li:nth-child(10){
+    margin-top: 2rem;
+}
+
+.otherProducts{
+    display: flex;
+    margin-left: 10%;
+}
+
+
+.Contact{
+    position: relative;
+    right: 3rem;
+}
+
+input[type="search"]{
+width: 120.31px;
+height: 30.61px;
+border: none;
+outline: none;
+font-size: 16px;
+font-weight: 500;
+position: relative;
+bottom: 0.4rem;
+}
+
+input[type="search"]::placeholder{
+    color: #757575;
+}
+
+/* Site Mode */
+
+.siteMode{
+    width: 1310.75px;
+    height: 130.11px;
+    padding-inline: 1.9rem;
+}
+
+.siteMode p{
+    font-weight:bold;
+    padding-block: 10px;
+}
+
+.siteMode label{
+    font-family: avenir, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+padding-block: 0.2rem;
+padding-inline: 0.8rem;
+}
+
+.homeMode{
+    background-color: #000;
+    color: #fff;
+    }
+    
+.professionalMode{
+        background-color: #d1d3d4;
+        color: #fff;
+
+} 
+
+.homeMode:hover + #professionalMode:checked{
+    background-color: #000;
+     color: #fff;
+}
+
+.professionalModeBtn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/* Topnav section ends here */
+
+header nav menu li:last-child {
+    margin-right: 3rem;
+}
+
+header nav menu li a svg{
+    width: 118.83px;
+    height: 118.83px;
+}
+
+/* header ends here */
+
+
+/* main starts here */
+main{
+margin-top: 11%;
+}
+
+
+
+/* afterPaySection starts here*/
+.afterPaySection{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 94.22px;
+background-color: #e3c4be;
+}
+
+.afterPayText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 25.11px;
+    padding-inline: 2rem;
+}
+
+
+.afterPayText p{
+    margin-left: 15%;
+}
+
+.afterPaySection label{
+    border-radius: 20px;
+    font-family:avenir, sans-serif;
+    padding-block: 0.50rem;
+    padding-inline: 1rem;
+font-style: normal;
+font-weight: 200;
+color:rgb(0, 0, 0);
+font-size: 16px;
+line-height:20px;
+border: 2px solid #000;
+background: none;
+transition: all ease .25s;
+cursor: pointer;
+}
+
+.afterPaySection label:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all ease .25s;
+}
+ 
+/* afterPaySection ends here*/
+    
+/* logistics section starts here */
+.logistics{
+display: flex;
+width: 100%;
+padding-block: 2.3%;
+padding-inline: 2%;
+}
+        
+h2{
+font-size: 126px;
+width: 50%;
+font-weight: 100;
+}
+            
+.logistics > div{
+width: 50%;
+padding-block: 1rem;
+padding-inline: 0.6rem;
+}
+
+div > p{
+padding: 0.6rem;
+font-family: avenir, sans-serif;
+font-style: normal;
+font-weight: 200;
+Color:rgb(0, 0, 0);
+font-size: 19px;
+line-height: 23px;
+}
+/* logistics section ends here */
+
+
+
+/* kada Personalities section starts here */
+
+.kada-personalities{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+ padding-block: 2.3%;
+ padding-inline: 2%;
+ /* grid-row: 2%; */
+
+}
+
+.cards{
+    width: 327.55px;
+    height: 482.3px;
+}
+
+.cards img{
+    width: 297.52px;
+}
+
+.card-name{
+    font-family: signifier;
+font-weight: 100;
+color: rgb(0, 0, 0);
+font-size: 33px;
+line-height: 39px;
+}
+
+.role{
+font-family: avenir, sans-serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 10px;
+}
+
+.card-name,
+.role{
+    margin-left: -0.7rem;
+}
+
+.kada-personalities .cards a{
+    color: #000;
+}
+/* kada Personalities section ends here */
+
+
+
+/* Gallery Section starts here */
+.Galleries{
+padding-left: 2.3%;
+padding-right: 3%;
+padding-block: 8%;
+
+}
+
+.first-galerry{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.first-galerry img:first-child{
+    width: 406.88px;
+    height: 542.77px;
+}
+
+.first-galerry img:last-child{
+    width: 625.34px;
+    height: 469px;
+    position: relative;
+top: 38%;
+z-index: -1;
+}
+
+.second-gallery{
+    width: 100%;
+    height: 100vh;
+    padding-block: 20.5%;
+    padding-inline: 16%;
+}
+
+.second-gallery-image{
+    width: 625.34px;
+    height: 406.47px;
+}
+
+.third-gallery{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    margin-block: 10%;
+}
+
+
+.third-gallery img:first-child{
+    width: 406.88px;
+    height: 542.36px;
+    margin-left: 10%;
+}
+
+.third-gallery img:last-child{
+    width: 406.88px;
+    height: 541.95px;
+    margin-top: 13%;
+}
+
+.fourth-gallery{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.fourth-gallery img{
+    width: 625.34px;
+    height: 469px;
+    position: absolute;
+    top: 17%;
+    right: 11%;
+    z-index: -1;
+}
+
+.fifth-gallery{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fifth-gallery img:first-child{
+    width: 406.88px;
+    height: 542.36px;
+}
+
+.fifth-gallery img:last-child{
+    width: 625.34px;
+    height: 833.58px;
+    margin-top: 20%;
+}
+
+/* Gallery Section ends here */
+
+/* main ends here */
+
+/* footer starts here */
+footer{
+    margin-top: 8%;
+    height: 572.73px;
+    background-color: #ededee;
+    padding: 2%;
+}
+
+
+/* section one  containing: Site mode, support and contact starts here */
+.section-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section-one div p{
+font-size: 1rem;
+font-weight: 600;
+font-family: avenir, sans-serif;
+margin-left: -0.5rem;
+}
+
+footer label{
+    font-family: avenir, sans-serif;
+    background: none;
+    font-style: normal;
+    font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+padding-block: 0.2rem;
+padding-inline: 0.8rem;
+}
+
+
+.Home-btn{
+    background-color: #000;
+    color: #fff;
+}
+
+.Professional-btn{
+    background-color: #d1d3d4;
+     color: #fff;
+}
+
+
+
+/* support-and-contact-section starts here*/
+.support-and-contact-section{
+    font-family: avenir, sans-serif;
+    display: flex;
+margin-right: 19%;
+}
+
+.support-details{
+    width: 218.45px;
+    height: 198.94px;
+    padding-inline: 3%;
+}
+
+.support-details p, 
+.contact-details p{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.support-details ul,
+.contact-details ul{
+    padding-block: 5%;
+    }
+    
+.support-details li{
+    list-style-type: none;
+    font-weight: 600;
+    padding-top: 0.3rem;
+    padding-inline: 0.1rem;
+}
+
+.support-details li:last-child{
+    padding-block: 0.7rem;
+}
+
+.contact-details ul{
+    margin-top: -1rem;
+}
+
+.contact-details li{
+    list-style-type: none;
+    margin-top: 0.2rem;
+    padding-block: 0.9rem;
+    font-weight: 600;
+    padding-inline: 0.1rem;
+}
+ 
+.support-details a,
+.contact-details a{
+text-decoration: none;
+font-size: 15px;
+font-family: sans-serif;
+color: #000;
+font-weight: 600;
+}
+
+
+.contact-details address{
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.4rem;
+    color: #000;
+    /* border: 1px solid pink; */
+    }
+  /* support-and-contact-section starts here*/ 
+  /* section one  ends here */
+
+
+/* section two containing: Social handles, newsPaper and copyright starts here*/
+.section-two{
+    display: flex;
+    height: 68.88px;
+    margin-top: 4rem; 
+    justify-content: space-between;
+}
+
+.section-two ul{
+    display: flex;
+}
+
+.section-two ul li{
+    list-style-type: none;
+    padding-inline: 0.2rem;
+}
+.section-two ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.section-two p{
+    flex-basis: 50%;
+    padding-left: 17%;
+    font-weight: 600;
+}
+/* section two ends here */
+
+/* footer ends here */

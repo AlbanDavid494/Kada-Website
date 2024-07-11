@@ -1,0 +1,614 @@
+@media screen and (max-width: 320px) {
+body {
+    overflow-x: hidden;
+width: 320px;
+}
+
+header {
+height: 58.25px;
+width: 320px;
+}
+
+header nav menu li:last-child {
+margin-right: 2rem;
+}
+
+header nav menu li a svg {
+width: 64px;
+height: 23.1562px;
+}
+
+main{
+    width: fit-content;
+}
+
+/* afterPaySection starts here*/
+.afterPaySection {
+width: 320px;
+height: fit-content;
+padding-inline: 0px;
+}
+
+.afterPaySection label {
+padding: 4.368px 9.984px;
+margin-right: 9.984px;
+}
+
+.afterPayText {
+display: flex;
+padding-inline: 0rem;
+}
+
+.afterPayText p {
+margin-left: 0%;
+font-size: 15px;
+}
+
+/* logistics section starts here */
+.logistics {
+display: flex;
+flex-direction: column;
+padding-block: 2.3%;
+padding-inline: 0.6rem;
+margin-top: 58.25px;
+width: 310px;
+}
+
+h2 {
+margin-top: 8%;
+letter-spacing: -0.832px;
+font-size: 42px;
+width: 288px;
+height: 41.5938px;
+padding-inline: 1rem;
+font-weight: 100;
+}
+
+.logistics > div {
+width: 320px;
+padding-block: 1rem;
+padding-inline: 0.6rem;
+}
+
+div > p {
+padding-block: 0.6rem;
+padding-left: 0.5rem;
+padding-right: 1.8rem;
+font-size: 16px;
+text-align: left;
+line-height: 21.2784px;
+}
+
+/* kada Personalities section starts here */
+
+.kada-personalities {
+    display: grid;
+width: fit-content;
+/* width: 100%; */
+grid-template-columns: repeat(1, 1fr);
+padding-block: 1%;
+padding-inline: 1.7rem;
+}
+
+.cards {
+width: 146.141px;
+height: 257.219px;
+}
+
+.cards img {
+width: 139.172px;
+height: 139.172px;
+}
+
+.card-name {
+font-size: 18.386px;
+width: fit-content;
+height: 21.875px;
+line-height: 21.8793px;
+letter-spacing: -0.36772px;
+padding-block: 7.1325px;
+padding-inline: 0;
+margin-left: 1px;
+}
+
+.role {
+width: 139.172px;
+height: 24.375px;
+padding-block: 7.1325px;
+line-height: 17.2607px;
+margin-bottom: 16px;
+font-size: 14.265px;
+padding-inline: 0;
+margin-left: 1px;
+}
+
+.kada-personalities .cards a {
+color: #000;
+width: 139.172px;
+height: 25.5625px;
+padding: 0;
+line-height: 17px;
+margin-left: 1px;
+}
+
+/* Gallery Section starts here */
+
+.first-galerry{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding-block: 14.9592px;
+    margin-left: 0.4rem;
+    }
+
+.first-galerry img:first-child{
+    width: 285.312px;
+    height: 380.594px;
+    padding-inline:0.7rem;
+}
+
+.first-galerry img:last-child{
+    display: none;
+}
+
+.second-gallery{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin-left: 3.2rem;
+    padding-inline: 0;
+    padding-block: 3.9rem;
+    margin-top: 4rem;
+}
+
+.second-gallery-image{
+    width: 241.484px;
+    height: 156.953px;
+padding-inline:0.7rem;
+}
+
+
+.third-gallery{
+    height: fit-content;
+    width: fit-content;
+}
+
+.third-gallery img:first-child{
+    width: 256.094px;
+height: 341.359px;
+margin-right: 8.66%;
+}
+
+.third-gallery img:last-child{
+   display: none;
+}
+
+.fourth-gallery{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin-block: 6rem;
+    /* */
+}
+
+.fourth-gallery img{
+    width: 168.406px;
+height: 126.297px;
+position:static ;
+/* top: 17%; */
+top: 0;
+right: 0;
+/* right: 11%; */
+z-index: 2;
+}
+
+.fifth-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    /* width: 100%; */
+}
+
+
+.fifth-gallery img:first-child{
+    width: 285.312px;
+height: 380.312px;
+}
+
+.fifth-gallery img:last-child{
+    display: none;
+}
+
+/* footer starts here */
+
+footer {
+    
+width: 320px;
+height: fit-content;
+margin-top: 60.75px;
+padding-left: 1.9rem;
+}
+
+.section-one {
+display: flex;
+flex-direction: column;
+justify-content: baseline;
+}
+
+.section-one div{
+    padding-block: 17px
+}
+
+.site-mode{
+    text-decoration: none;
+}
+
+.support-and-contact-section {
+display: flex;
+flex-direction: column;
+margin-right: 4%;
+}
+
+.support-details {
+width: 218.45px;
+height: 198.94px;
+padding-inline: 0%;
+}
+
+.contact-details li {
+margin-top: 0rem;
+}
+
+.support-details p,
+    .contact-details p{
+        text-decoration: underline;
+    }
+
+
+/* section two containing: Social handles, newsPaper and copyright starts here*/
+.section-two {
+display: flex;
+flex-direction: column;
+width: fit-content;
+height: 126.625px;
+/*  */
+justify-content: baseline;
+}
+
+.section-two ul {
+display: flex;
+flex-wrap: wrap;
+}
+
+.section-two ul li:last-child {
+padding-inline: 0.2rem;
+padding-top: 8%;
+}
+
+.section-two p {
+padding-left: 1%;
+margin-top: 2%;
+}
+}
+
+/* screen size of 480px */
+
+@media screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    width: 460px;
+    }
+    
+    header {
+        width: 480px;
+        height: 88.3906px;
+        z-index: 1;
+    }
+    
+    header nav menu li:last-child {
+    margin-right: 2rem;
+    }
+    
+    header nav menu li a svg {
+    width: 64px;
+    height: 23.1562px;
+    }
+    
+    main{
+        margin-top: 15%;
+        width: 480px;
+    }
+    
+    /* afterPaySection starts here*/
+    .afterPaySection {
+    width: 480px;
+        height: fit-content;
+    padding-inline: 2rem;
+    }
+    
+    .afterPaySection label {
+    padding: 4.368px 9.984px;
+    margin-right: 9.984px;
+    }
+    
+    .afterPayText {
+    display: flex;
+    padding-inline: 0rem;
+    }
+    
+    .afterPayText p {
+    margin-left: 0%;
+    font-size: 23px;
+    }
+    
+    /* logistics section starts here */
+    .logistics {
+    display: flex;
+    flex-direction: column;
+    padding-block: 2.3%;
+    padding-inline: 0.6rem;
+    margin-top: 58.25px;
+    width: 310px;
+    }
+    
+    h2 {
+    margin-top: 16%;
+    letter-spacing: -1.248px;
+    font-size: 62.4px;
+    width: 432px;
+height: 62.3906px;
+    padding-inline: 1rem;
+    font-weight: 100;
+    }
+    
+    .logistics > div {
+    width: 474px;
+    line-height: 27.4176px;
+    padding-block: 1rem;
+    padding-inline: 0.6rem;
+    }
+    
+    div > p {
+        letter-spacing: 0.367px;
+    padding-block: 0.6rem;
+    padding-left: 0.5rem;
+    padding-right: 1.8rem;
+    font-size: 23.04px;
+    text-align: left;
+    line-height: 29.4176px;
+    }
+    
+    /* kada Personalities section starts here */
+    
+    .kada-personalities {
+        display: grid;
+    width: fit-content;
+    /* width: 100%; */
+    grid-template-columns: repeat(1, 1fr);
+    padding-block: 1%;
+    padding-inline: 1.7rem;
+    }
+    
+    .cards {
+        width: 221.266px;
+        height: 415.625px;
+    }
+    
+    .cards img {
+        width: 210.734px;
+        height: 210.734px;
+    }
+    
+    .card-name {
+        font-size: 27.84px;
+        width: 210.734px;
+        height: 33.125px;
+    line-height: 33.1296px;
+    letter-spacing: -0.5568px;
+    padding-block: 27.1325px;
+    padding-inline: 0;
+    margin-left: 1px;
+    }
+    
+    .role {
+        width: 210.734px;
+    padding-block: 7.1325px;
+    line-height: 26.136px;
+    margin-bottom: 16px;
+    font-size: 21.6px;
+    padding-inline: 0;
+    margin-left: 1px;
+    }
+    
+    .kada-personalities .cards a {
+    color: #000;
+    width: 139.172px;
+    height: 25.5625px;
+    padding: 0;
+    font-size: 21.6px;
+    line-height: 17px;
+    margin-left: 1px;
+    }
+    
+    /* Gallery Section starts here */
+    
+    .first-galerry{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: fit-content;
+        padding-block: 14.9592px;
+        margin-left: 0.4rem;
+        }
+    
+    .first-galerry img:first-child{
+        width: 446px;
+height: 576.281px;
+        padding-inline:0.7rem;
+    }
+    
+    .first-galerry img:last-child{
+        display: none;
+    }
+    
+    .second-gallery{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        margin-left: 4.3rem;
+        padding-inline: 0;
+        padding-block:  73.125px;
+        margin-top: 4rem;
+    }
+    
+    .second-gallery-image{
+        width: 365.625px;
+height: 237.656px;
+    padding-inline:0rem;
+    margin-top: 73px;
+    z-index: -1;
+}
+
+
+.third-gallery{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 0.2rem;
+}
+
+.third-gallery img:first-child{
+        width: 387.75px;
+        height: 516.859px;
+    margin-top:  77.5469px;
+    margin-right: 8.98%;
+    }
+    
+    .third-gallery img:last-child{
+       display: none;
+    }
+    
+    .fourth-gallery{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        margin-block: 6rem;
+        margin-left: 11rem;
+    }
+    
+    .fourth-gallery img{
+        width: 255px;
+        height: 191.25px;
+    position:static;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    }
+    
+    .fifth-gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: fit-content;
+        margin-left: 0.9rem;
+    }
+    
+    
+    .fifth-gallery img:first-child{
+        width: 432px;
+        height: 575.844px;
+    padding-inline:0.7rem;
+    }
+    
+    .fifth-gallery img:last-child{
+        display: none;
+    }
+    
+    /* footer starts here */
+    
+    footer{
+    width: 480px;
+    height: fit-content;
+    margin-top: 70.75px;
+    padding-left: 1.9rem;
+    }
+    
+    .section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    }
+
+    .section-one div{
+        padding-block: 20px
+    }
+    
+    .section-one a{
+font-size: 18px;
+    }
+    
+    .support-and-contact-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    }
+    
+    .support-details {
+    width: 218.45px;
+    height: 198.94px;
+    padding-inline: 0%;
+    }
+
+    
+    .contact-details li {
+    margin-top: 0rem;
+    }
+    /* .contact-p{
+        font-size: 21.6px;
+    } */
+
+    .contact-details address{
+        font-size: 18px;
+    }
+
+    .support-details p,
+    .contact-details p{
+        text-decoration: underline;
+font-size: 21.6px;
+    }
+
+    .support-details a,
+    .contact-details a{
+        font-size: 18px;
+    }
+
+    /* section two containing: Social handles, newsPaper and copyright starts here*/
+    .section-two {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 126.625px;
+    justify-content: baseline;
+    }
+    
+    .section-two ul {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .section-two ul li:last-child {
+    padding-inline: 0.2rem;
+    padding-top: 8%;
+    }
+
+    .section-two ul li a{
+        font-size: 18px;
+    }
+    
+    .section-two p {
+    padding-left: 1%;
+    margin-top: 2%;
+    font-size: 18px;
+    }
+    }

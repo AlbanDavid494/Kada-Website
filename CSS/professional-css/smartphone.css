@@ -1,0 +1,90 @@
+@media screen and (max-width:320px){
+    body{
+        width:310px;
+    }
+
+    /* afterPaySection starts here*/
+.afterPaySection{
+    width: 320px;
+    height: fit-content;
+/* height: 84.7031px; */
+padding-inline: 0px;
+}
+
+.afterPaySection label{
+    padding: 4.368px 9.984px;
+    margin-right: 9.984px;
+}
+
+.afterPayText{
+    display: flex;
+    padding-inline: 0rem;
+}
+
+.afterPayText p{
+    margin-left: 0%;
+    font-size: 15px;
+}
+
+
+    /* footer starts here */
+
+    footer{
+        width: 320px;
+        height: fit-content;
+        margin-top: 60.75px;
+    }
+
+    .section-one{
+        display: flex;
+        flex-direction: column;
+        justify-content:baseline;
+    }
+
+    .section-one div p{
+        text-decoration: underline;
+        }
+
+    .support-and-contact-section{
+        display: flex;
+        flex-direction: column;
+       margin-right: 4%;
+    }
+
+    .support-details{
+        width: 218.45px;
+        height: 198.94px;
+        padding-inline: 0%;
+    }
+
+    .contact-details li{
+    margin-top: 0rem;
+    }
+
+    /* section two containing: Social handles, newsPaper and copyright starts here*/
+.section-two{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 126.625px;
+    /* border: 1px solid red;  */
+    justify-content: baseline;
+}
+
+.section-two ul{
+    display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.section-two ul li:last-child{
+    padding-inline: 0.2rem;
+    padding-top: 8%;
+}
+
+.section-two p{
+    padding-left: 1%;
+    margin-top: 2%;
+}
+
+}

@@ -1,0 +1,908 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: #7eb3cd;
+}
+
+
+/* Header starts here*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #fff;
+}
+
+/* Header Nav starts here */
+header nav menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80.3px;
+}
+
+header nav menu li {
+    list-style-type: none;
+}
+
+#menu-bar {
+    padding-block: 2rem;
+    padding-inline: 2.8rem;
+    position: relative;
+    background: none;
+    cursor: pointer;
+}
+
+header nav menu li:first-child label:before {
+    position: absolute;
+    content: "";
+    top: 2rem;
+    left: 1.9rem;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    transition: all .2s ease;
+}
+
+header nav menu li:first-child label:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    top: 2.4rem;
+    left: 1.9rem;
+    background-color: #000;
+    transition: all .2s ease;
+}
+
+
+/* Topnav section starts here */
+#top-nav {
+    z-index: 2;
+    position: absolute;
+    top: 4rem;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    opacity: 0;
+    background-color: #fff;
+    font-family: avenier, sans-serif;
+}
+
+.allProducts {
+    display: flex;
+    width: 1310.75px;
+    height: 470px;
+    padding-inline: 1.6rem;
+    padding-top: 2rem;
+}
+
+.allProducts h4 {
+    font-weight: 500;
+    padding-bottom: 3rem;
+    color: #000;
+    font-family: avenier, sans-serif;
+}
+
+
+.allProducts>div ul li {
+    list-style-type: none;
+    width: 178px;
+}
+
+
+.allProducts>div ul li a {
+    text-decoration: none;
+    color: #000;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+.homeAndProfessionalProducts {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeProducts ul li:nth-child(7) {
+    margin-top: 2rem;
+}
+
+.professionalProducts {
+    display: none;
+}
+
+.professionalProducts ul li:nth-child(10) {
+    margin-top: 2rem;
+}
+
+.otherProducts {
+    display: flex;
+    margin-left: 10%;
+}
+
+
+.Contact {
+    position: relative;
+    right: 3rem;
+}
+
+input[type="search"] {
+    width: 120.31px;
+    height: 30.61px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    bottom: 0.4rem;
+}
+
+input[type="search"]::placeholder {
+    color: #757575;
+}
+
+/* Site Mode */
+
+.siteMode {
+    width: 1310.75px;
+    height: 130.11px;
+    padding-inline: 1.9rem;
+}
+
+.siteMode p {
+    font-weight: bold;
+    padding-block: 10px;
+}
+
+.siteMode label {
+    font-family: avenir, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding-block: 0.2rem;
+    padding-inline: 0.8rem;
+}
+
+.homeMode {
+    background-color: #000;
+    color: #fff;
+}
+
+.professionalMode {
+    background-color: #d1d3d4;
+    color: #fff;
+
+}
+
+.homeMode:hover+#professionalMode:checked {
+    background-color: #000;
+    color: #fff;
+}
+
+.professionalModeBtn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Topnav section ends here */
+
+header nav menu li:last-child {
+    margin-right: 3rem;
+}
+
+header nav menu li a svg {
+    width: 118.83px;
+    height: 118.83px;
+}
+
+/* header ends here */
+
+
+/* main starts here */
+
+/* afterPaySection starts here*/
+.afterPaySection {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 94.22px;
+    background-color: #e3c4be;
+    z-index: 2;
+}
+
+.afterPayText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 25.11px;
+    padding-inline: 2rem;
+}
+
+
+.afterPayText p {
+    margin-left: 15%;
+    padding: 0.6rem;
+    font-family: avenir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    Color: rgb(0, 0, 0);
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.afterPaySection label {
+    border-radius: 20px;
+    font-family: avenir, sans-serif;
+    padding-block: 0.50rem;
+    padding-inline: 1rem;
+    font-style: normal;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #000;
+    background: none;
+    transition: all ease .25s;
+    cursor: pointer;
+}
+
+.afterPaySection label:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all ease .25s;
+}
+
+/* afterPaySection ends here*/
+
+/* framery smart section starts here  */
+
+.framery-section {
+    padding-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.framery-section > div:first-child{
+    padding-inline: 1.6rem;
+    position: relative;
+    bottom: 9rem;
+    z-index: 1;
+}
+
+h2 a {
+    font-family: signifier;
+    font-style: normal;
+    font-weight: 100;
+    color: #fff;
+    font-size: 126px;
+    line-height: 126px;
+    text-decoration: none;
+}
+
+.framery-description-link {
+    font-family: avenir, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    font-size: 19px;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+.framery-section>div:last-child {
+    display: flex;
+    justify-content: end;
+}
+
+.framery-section>div:last-child>a img {
+    width: 887.48px;
+    height: 601.81px;
+}
+
+/* framery smart section ends here */
+
+/* steel case section starts here */
+.steel-case-section{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 2rem;
+    z-index: -1;
+}
+
+.steel-case-section section:first-child{
+    background-color: #e3c4be;
+    flex-basis: 50%;
+}
+
+.steel-case-section section:first-child div:first-child{
+    padding: 2rem;
+}
+
+.steel-case-section section:first-child div:first-child p{
+    font-family: avenir, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+ }
+
+.steel-case-section section:first-child  div:first-child a{
+    color: #000;
+    text-decoration: none;
+}
+
+.steel-case-section section:first-child  div:first-child h3{
+    font-family: signifier;
+    font-style: normal;
+    font-weight: 100;
+    color: #000;
+    font-size: 89px;
+    margin-left: -0.3rem;
+    line-height: 97px;
+}
+
+.steel-case-section section:first-child div:last-child{
+    background-color: #fff;
+    width: 603.47px;
+    height: 381.73px;
+    padding-left: 1.7rem;
+    padding-block: 1.7rem;
+    margin-left: 1.9rem;
+    cursor: pointer;
+}
+
+.steel-case-section section:first-child div:last-child img{
+    width: 548.84px;
+    height: 327.25px;
+}
+
+.steel-case-section section:last-child{
+    flex-basis: 50%;
+}
+
+.steel-case-section section:last-child img{
+    width: 674.5px;
+    height: 756.28px;
+}
+
+/* steel case section ends here */
+
+/* designer table section starts here */
+.designer-table-section{
+    display: flex;
+    width: 100%;
+   position: relative;
+   top: 3.8rem;
+   z-index: -1;
+}
+
+.designer-table-section div:first-child{
+    flex-basis: 50%;
+    position: relative;
+}
+
+.designer-table-section > div:first-child > p{
+  font-family: avenir, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color:#000;
+  font-size: 16px;
+line-height: 20px;
+width: 269.8px;
+height: 55.02px;
+position: absolute;
+top: -3rem;
+left: 0;
+z-index: 1;
+padding: 2rem;
+}
+
+.designer-table-section div:first-child img{
+    width: 674.5px;
+    height: 856.28px;
+    position: relative;
+    top: -3rem;
+}
+
+.designer-table-section section{
+  flex-basis: 50%;
+  position: relative;
+    top: -3rem;
+  background-color: #c5a261;
+}
+
+.designer-table-section section div{
+    margin-top: 3rem;
+}
+
+.designer-table-section section div a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.designer-table-section section div h3{
+    font-family: signifier;
+    font-style: normal;
+    font-weight: 100;
+    padding: 2rem;
+    font-size: 89px;
+    line-height: 97px;
+}
+  
+.designer-table-section section div p{
+   font-family: avenir, sans-serif;
+   font-style: normal;
+   padding-inline: 2.3rem;
+   padding-bottom: 2rem;
+   font-weight: 300;
+   font-size: 19px;
+   line-height: 30px;
+   /* margin-top: 1rem; */
+}
+
+.designer-table-section section div:last-child{
+    background-color: #fff;
+    width: 603.47px;
+    height: 363.06px;
+    padding-left: 1.7rem;
+    padding-block: 1.7rem;
+    height: 366.73px;
+    margin-left: 1.9rem;
+    margin-top: 2rem; 
+    cursor: pointer;
+}
+ 
+.designer-table-section section div:last-child img{
+    width: 548.84px;
+    height: 308.72px;
+}
+/* designer table section ends  here */
+
+/* dancing wall section starts here */
+.dancing-wall-section{
+    display: flex;
+    position: relative;
+    top: 0.5rem;
+    z-index: -1;
+
+}
+
+.dancing-wall-section img{
+    width: 674.5px;
+    height: 449.8px;
+}
+
+.dancing-wall-section div{
+    flex-basis: 50%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+    padding-inline: 2rem;
+    padding-block:2rem 4rem;
+    background-color: #e16454;
+}
+
+
+.dancing-wall-section p:first-child a{
+ font-family: avenir, sans-serif;
+ font-style: normal;
+ font-weight: 600;
+ color: #000;
+ font-size: 16px;
+ line-height: 20px;
+ text-decoration: none;
+}
+
+.dancing-wall-section h3 a{
+   font-family: signifier;
+   font-style: normal;
+   color: #fff;
+   font-size: 89px;
+   line-height: 97px;
+   text-decoration: none;
+}
+
+.dancing-wall-section p:last-child a{
+    font-family: avenir, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #fff;
+    font-size: 19px;
+    line-height: 23px;
+    text-decoration: none;
+}
+/* dancing wall section ends here */
+
+/* framery one section starts here */
+.framery-one-section{
+    display: flex;
+    position: relative;
+    /* top: -9rem; */
+}
+
+.framery-one-section div:first-child{
+    flex-basis: 50%;
+    background-color: #e5cd9e;
+    padding: 2rem;
+}
+
+.framery-one-section div:first-child p a{
+    text-decoration: none;
+}
+
+.framery-one-section div:first-child p:first-child a {
+    font-family: signifier;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+font-size: 89px;
+line-height: 97px;
+width: 512.94px;
+height: 188.95px;
+}
+
+.framery-one-section div:first-child p{
+   font-family: avenir, sans-serif;
+   font-style: normal;
+font-weight: 300;
+color: #000;
+font-size: 19px;
+line-height: 23px;
+padding-block: 0.2rem;
+}
+
+.framery-one-section div:first-child > div{
+    background-color: #fff;
+    width: 603.47px;
+    height: 603.47px;
+    padding-left: 1.7rem;
+    padding-block: 1.7rem;
+    height: 366.73px;
+    margin-right: -15rem;
+    margin-top: 2rem; 
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+
+.framery-one-section div:first-child > div img{
+    /* width: 548.84px; */
+    /* height: 548.84px; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.framery-one-section div:last-child img{
+width: 674.5px;
+height: 895.88px;
+}
+
+.framery-one-section div:last-child p a{
+    text-decoration: none;
+    font-family: signifier;
+ font-style: normal;
+ font-weight: 600;
+ color: #fff;
+ font-size: 89px;
+line-height: 97px;
+position: relative;
+padding: 2rem;
+top: -14rem;
+}
+/* framery one section ends here */
+
+/* noom-stool-section starts here */
+.noom-stool-section{
+    display: flex;
+    position: relative;
+    top: -6.6rem;
+}
+
+.noom-stool-section div {
+    display: flex;
+    padding: 2rem;
+    background-color: #e3c4be;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.noom-stool-section div p:first-child a{
+    font-family: avenier, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.noom-stool-section div h3 a{
+    font-family: signifier;
+color: #fff;
+text-decoration: none;
+font-size: 89px;
+line-height: 97px;
+}
+
+
+.noom-stool-section div p:last-child a{
+    font-family: avenir, sans-serif;
+font-weight: 600;
+text-decoration: none;
+color: #fff;
+font-size: 19px;
+line-height: 23px;
+}
+
+.noom-stool-section img{
+    width: 674.5px;
+    height: 410.17px;
+}
+
+/* noom-stool-section ends here */
+
+/* home-work-section starts here */
+.home-work-section{
+display: flex;
+position: relative;
+top: -6.8rem;
+}
+
+.home-work-section img{
+    width:674.5px ;
+    height:500.81px;
+}
+
+.home-work-section div{
+    background-color: #769379;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-block: 2rem 4rem;
+}
+
+.home-work-section a{
+text-decoration: none;
+}
+
+.home-work-section div p:first-child a{
+    font-family: avenier sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.home-work-section div h3 a{
+    font-family: signifier;
+     color: #fff;
+    font-size: 89px;
+   line-height: 97px;
+}
+.home-work-section div h3 + p a{
+    font-family: avenier, sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   color: #fff;
+   font-size:16px;
+    line-height: 20px;
+}
+
+.home-work-section  div p:last-child a{
+    font-family: avenier, sans-serif;
+    font-weight: 600;
+   color:#fff;
+    font-size:  19px;
+   line-height: 23px;
+}
+
+/* home-work-section ends here */
+
+/* get-in-touch-section starts here */
+.get-in-touch-section{
+    display: flex;
+    position: relative;
+    top: -7.4rem;
+    width: 100%;
+    z-index: -1;
+}
+
+.get-in-touch-section div{
+    flex-basis: 50%;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #c3d9e5;
+}
+
+.get-in-touch-section h3 a{
+font-size: 89px;
+font-family:signifier;
+text-decoration: none;
+color: #fff;
+}
+
+
+.get-in-touch-section p a{
+    font-size: 19px;
+    font-family: avenier, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.get-in-touch-section img{
+    height: 449.8px;
+
+    /* width: 974.5px; */
+}
+/* get-in-touch-section ends here */
+
+/* main ends here */
+
+/* footer starts here */
+footer {
+    margin-top: -10%;
+    height: 570px;
+    background-color: #ededee;
+    padding: 2rem;
+}
+
+
+/* section one  containing: Site mode, support and contact starts here */
+.section-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-one div p {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: avenir, sans-serif;
+    margin-left: -0.5rem;
+}
+
+footer label {
+    font-family: avenir, sans-serif;
+    background: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding-block: 0.rem;
+    padding-inline: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+
+.Home-btn {
+    background-color: #000;
+    color: #fff;
+}
+
+.Professional-btn {
+    background-color: #d1d3d4;
+    color: #fff;
+}
+
+
+
+/* support-and-contact-section starts here*/
+.support-and-contact-section {
+    font-family: avenir, sans-serif;
+    display: flex;
+    margin-right: 19%;
+}
+
+.support-details {
+    width: 218.45px;
+    height: 198.94px;
+    padding-inline: 3%;
+}
+
+.support-details p,
+.contact-details p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.support-details ul,
+.contact-details ul {
+    padding-block: 5%;
+}
+
+.support-details li {
+    list-style-type: none;
+    font-weight: 600;
+    padding-top: 0.3rem;
+    padding-inline: 0.1rem;
+}
+
+.support-details li:last-child {
+    padding-block: 0.7rem;
+}
+
+.contact-details ul {
+    margin-top: -1rem;
+}
+
+.contact-details li {
+    list-style-type: none;
+    margin-top: 0.2rem;
+    padding-block: 0.9rem;
+    font-weight: 600;
+    padding-inline: 0.1rem;
+}
+
+.support-details a,
+.contact-details a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #000;
+    font-weight: 600;
+}
+
+
+.contact-details address {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.4rem;
+    color: #000;
+    /* border: 1px solid pink; */
+}
+
+/* support-and-contact-section starts here*/
+/* section one  ends here */
+
+
+/* section two containing: Social handles, newsPaper and copyright starts here*/
+.section-two {
+    display: flex;
+    height: 68.88px;
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+.section-two ul {
+    display: flex;
+}
+
+.section-two ul li {
+    list-style-type: none;
+    padding-inline: 0.2rem;
+}
+
+.section-two ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.section-two p {
+    flex-basis: 50%;
+    padding-left: 17%;
+    font-weight: 600;
+}
+
+/* section two ends here */
+
+/* footer ends here */

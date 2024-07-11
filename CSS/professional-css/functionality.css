@@ -1,0 +1,61 @@
+/* header starts here */
+#menu-checkbox {
+    display: none;
+    }
+    
+    #menu-checkbox:checked ~ #menu-bar::before {
+    transform: rotate(40deg);
+    position: absolute;
+    top: 2.5rem;
+    transition: transform 0.2s ease;
+    }
+    
+    #menu-checkbox:checked ~ #menu-bar::after {
+    transform: rotate(-50deg);
+    transition: transform 0.2s ease;
+    }
+    
+    menu:has(> li:first-child > #menu-checkbox:checked) > #top-nav {
+    display: block;
+    opacity: 1;
+    animation: slideAndFade 0.25s ease-in-out;
+    }
+    
+    @keyframes slideAndFade {
+    from {
+    opacity: 0;
+    transform: translateY(-100%);
+    }
+    
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform;
+    }
+    }
+    
+    menu:has(> li:first-child > #menu-checkbox:checked) > #logo {
+    display: none;
+    }
+    
+    input[type='radio'] {
+    display: none;
+    }
+    
+    .homeMode:hover:has(~ #homeMode) {
+    background-color: #000;
+    color: #fff;
+    }
+    
+    /* header ends here */
+    
+    /* afterPaySection starts here*/
+    .afterPaySection:has(> .afterPayText > div > #close-checkbox:checked) {
+    display: none;
+    }
+    
+    section div > div input[type='checkbox'] {
+    display: none;
+    }
+    /* afterPaySection ends here*/
+    

@@ -1,0 +1,342 @@
+    body {
+    width: 767px;
+    }
+    
+    header {
+        width: 767px;
+        height: 139.391px;
+        z-index: 1;
+        padding-block: 36.1947px;
+    }
+    
+    header nav menu li:last-child {
+    margin-right: 2rem;
+    }
+    
+    header nav menu li a svg {
+    width: 104px;
+    height: 29.913px
+    }
+    
+    main{
+        /* margin-top: 25%; */
+        width:767px;
+    }
+    
+    /* afterPaySection starts here*/
+    .afterPaySection {
+    width: 767px;
+        height: fit-content;
+    padding-inline: 4rem;
+    }
+    
+    .afterPaySection label {
+    padding: 10.368px 20.984px;
+    margin-right: 9.984px;
+    font-size: 26.816px;
+    border-radius: 35px;
+    }
+    
+    .afterPayText {
+    display: flex;
+    padding-inline: 0rem;
+    }
+    
+    .afterPayText p {
+    margin-left: 0%;
+    font-size: 26.816px;
+    }
+    
+    /* logistics section starts here */
+    .logistics {
+    display: flex;
+    flex-direction: column;
+    padding-block: 2.3%;
+    padding-inline: 0.6rem;
+    margin-top: 58.25px;
+    
+    }
+    
+    h2 {
+    margin-top: 16%;
+    letter-spacing: -1.9942px;
+    font-size: 99.71px;
+    width: 690.312px;
+height: 99.7031px;
+line-height: 99.71px;
+    padding-inline: 1rem;
+    font-weight: 100;
+    }
+    
+    .logistics > div {
+        width: 760px;
+height: fit-content;
+line-height:36.1947px;
+    padding-block: 1rem;
+    padding-inline: 0.6rem;
+    }
+    
+    div > p {
+        letter-spacing: 0.367px;
+    padding-block: 0.6rem;
+    padding-left: 0.5rem;
+    padding-right: 1.8rem;
+    font-size: 36.816px;
+    text-align: left;
+    line-height: 43.811px;
+    }
+    
+    /* kada Personalities section starts here */
+    
+    .kada-personalities {
+        display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(2, 1fr);
+    padding-block: 1%;
+    padding-inline: 1.7rem;
+    gap:10px;
+    }
+    
+    .cards {
+        width: 353.578px;
+        height: 622.391px;
+    }
+    
+    .cards img {
+        width: 336.734px;
+        height: 336.734px;
+    }
+    
+    .card-name {
+        font-size: 44.486px;
+        width: 336.734px;
+height: 52.9375px;
+    line-height: 33.1296px;
+    letter-spacing: -0.5568px;
+    padding-block: 27.1325px;
+    padding-inline: 0;
+    margin-left: 1px;
+    }
+    
+    .role {
+        width: 336.734px;
+height: 100.75px;
+    padding-block: 24.1325px;
+    line-height: 41.7631px;
+    margin-bottom: 16px;
+    font-size: 28.515px;
+    padding-inline: 0;
+    margin-left: 1px;
+    }
+    
+    .kada-personalities .cards a {
+    color: #000;
+    width: 336.734px;
+    height: 100.75px;
+    padding: 0;
+    font-size: 34.515px;
+    line-height: 41.7631px;
+    margin-left: 1px;
+    }
+    
+    /* Gallery Section starts here */
+    
+    .first-galerry{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: fit-content;
+        padding-block: 14.9592px;
+        margin-left: 0.6rem;
+        }
+    
+    .first-galerry img:first-child{
+        width: 695.312px;
+height: 920.875px;
+        padding-inline:0;
+    }
+    
+    .first-galerry img:last-child{
+        display: none;
+    }
+    
+    .second-gallery{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        margin-left: 7.3rem;
+        padding-inline: 0;
+        padding-block:   116.844px;
+        margin-top: 4rem;
+    }
+    
+    .second-gallery-image{
+        width: 584.25px;
+        height: 379.75px;
+    padding-inline:0rem;
+    margin-top: 73px;
+    z-index: -1;
+}
+
+
+.third-gallery{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 1rem;
+}
+
+.third-gallery img:first-child{
+    width: 619.609px;
+    height: 825.938px;
+    margin-top:  123.922px;
+    margin-right: 9%;
+    }
+    
+    .third-gallery img:last-child{
+       display: none;
+    }
+    
+    .fourth-gallery{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        margin-block: 6rem;
+        margin-left: 18.7rem;
+    }
+    
+    .fourth-gallery img{
+        width: 407.453px;
+        height: 305.578px;
+    position:static;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    }
+    
+    .fifth-gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: fit-content;
+        margin-left: 0.9rem;
+       
+    }
+    
+    
+    .fifth-gallery img:first-child{
+        width: 690.312px;
+        height: 920.172px;
+    padding-inline:0;
+    }
+    
+    .fifth-gallery img:last-child{
+        display: none;
+    }
+    
+    /* footer starts here */
+    
+    footer{
+    width: 767px;
+    height: fit-content;
+    margin-top: 70.75px;
+    padding-left: 1.9rem;
+    }
+
+    
+    .section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    }
+
+    /* .section-one div{
+        padding-block: 41.7631px;
+    }
+     */
+   .section-one div p{
+    font-size: 28px;
+    /* padding-top: 3rem; */
+    margin-block: 1rem;
+    line-height: 0;
+    /* border: 1px solid red; */
+   } 
+
+   footer label{
+    padding-block: 0.6rem;
+    padding-inline: 1rem;
+    border-radius:25px;
+    font-size: 23px;
+    margin-block: 2rem;
+    
+   }
+
+    .section-one a{
+font-size: 30px
+    }
+    
+    .support-and-contact-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    }
+    
+    .support-details {
+    width: 218.45px;
+    height: 198.94px;
+    padding-inline: 0%;
+    }
+
+    .contact-p{
+        margin-top: 2rem;
+        font-size: 28px;
+    }
+
+    .contact-details address{
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    .support-details p,
+    .contact-details p{
+        text-decoration: underline;
+        font-size: 32px;
+    }
+
+    .support-details a,
+    .contact-details a{
+        font-size: 25px;
+    }
+
+    /* section two containing: Social handles, newsPaper and copyright starts here*/
+    .section-two {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 110.625px;
+    justify-content: baseline;
+    }
+    
+    .section-two ul {
+    display: flex;
+    margin-top: -3rem;
+    /* flex-wrap: wrap; */
+    }
+    
+    .section-two ul li:last-child {
+    padding-inline: 0.2rem;
+    position: absolute;
+    left:1.9rem;
+    padding-top: 5%;
+    }
+
+    .section-two ul li a{
+        font-size: 32px;
+
+    }
+    
+    .section-two p {
+    padding-left: 1%;
+    margin-top: 2%;
+    padding-top: 2%;
+    font-size: 32px;
+    }
